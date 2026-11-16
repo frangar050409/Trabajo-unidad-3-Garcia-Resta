@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tienda online Carhartt vintage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Lora:ital,wght@0,400;0,600;1,400&family=Special+Elite&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="encabezado">
+      <div class="logo">
+        <img
+          src="https://commons.wikimedia.org/wiki/Special:FilePath/Carhartt_logo.svg"
+          alt="logo carhartt"
+        />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Servicios</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+      <form class="buscador" role="search">
+        <input type="search" placeholder="Buscar prendas..." aria-label="Buscar" />
+        <button type="submit">Buscar</button>
+      </form>
+    </header>
+
+    <main>
+      <section class="producto">
+        <div class="producto__imagen">
+          <img
+            src="https://http2.mlstatic.com/D_NQ_NP_894796-MLA85262676516_062025-O.webp"
+            alt="producto"
+          />
+        </div>
+
+        <div class="producto__info">
+          <span class="etiqueta">Pieza única · Usada</span>
+          <div class="card">
+            <h1>Campera Carhartt vintage</h1>
+            <p>
+              Esta campera abrigada de la marca "Carhartt" es usada pero sigue
+              teniendo utilidad ya que los productos con telas pesadas como este
+              tienen una gran duracion durante el paso del tiempo.
+            </p>
+          </div>
+
+          <div class="miniaturas">
+            <img
+              src="https://http2.mlstatic.com/D_NQ_NP_2X_856937-MLA85262636812_062025-F.webp"
+              alt="Descripción de foto 1"
+            />
+            <img
+              src="https://http2.mlstatic.com/D_NQ_NP_2X_893396-MLA85262676522_062025-F.webp"
+              alt="Descripción de foto 2"
+            />
+            <img
+              src="https://http2.mlstatic.com/D_NQ_NP_2X_793969-MLA85262666652_062025-F.webp"
+              alt="Descripción de foto 3"
+            />
+          </div>
+
+          <div class="precios">
+            <p class="precio-original">
+              Precio original:
+              <strong><span class="destacado"><del>$129.99</del></span></strong>
+            </p>
+            <p class="precio-actual">
+              Precio actual:
+              <strong><span class="destacado">$99.99</span></strong>
+            </p>
+            <button class="comprar" type="button">Comprar ahora</button>
+          </div>
+
+          <details class="descripcion">
+            <summary>Descripcion del producto</summary>
+            <p>
+              Esta pieza antigua de la marca Carhartt talle XL traida de Nueva
+              York brinda un abrigo infaltable en un armario de un amante de las
+              piezas vintage.
+            </p>
+            <p>Color: Marron claro</p>
+            <p>Talles: S, M, L (agotado), XL</p>
+          </details>
+        </div>
+      </section>
+
+      <section class="resenas">
+        <h2 class="titulo-seccion">Opiniones</h2>
+        <div class="resenas__lista">
+          <article class="resena">
+            <div class="resena__autor">
+              <img
+                src="https://thumbs.dreamstime.com/b/perfil-de-un-anciano-la-cara-del-pensionista-está-lado-avatar-abuelo-ilustración-plana-vectorial-188884265.jpg"
+                alt="Foto de perfil de Horacio"
+              />
+              <div>
+                <h3>Horacio</h3>
+                <time datetime="2024-12-16">16 de diciembre de 2024</time>
+              </div>
+            </div>
+            <p class="estrellas" aria-label="5 de 5 estrellas">★★★★★</p>
+            <p>
+              Excelente calidad de producto, muy recomendable. Combina con todo
+              tipo de ropa. Excelente atención!!
+            </p>
+          </article>
+
+          <article class="resena">
+            <div class="resena__autor">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSev0eXav_XM5wgMJd8RsecNvUlLUxVf64eLw&s"
+                alt="Foto de perfil de Pali Martinez"
+              />
+              <div>
+                <h3>Pali Martinez</h3>
+                <time datetime="2025-01-05">5 de enero de 2025</time>
+              </div>
+            </div>
+            <p class="estrellas" aria-label="4 de 5 estrellas">★★★★☆</p>
+            <p>
+              Buzo muy abrigado y comodo, recomiendo lavarlo antes de usarlo ya
+              que deja pelusa.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="relacionados">
+        <h2 class="titulo-seccion">Otros productos que te podrían interesar:</h2>
+        <div class="relacionados__lista">
+          <article class="relacionado">
+            <img
+              src="https://http2.mlstatic.com/D_NQ_NP_625414-MLA91072569106_092025-O.webp"
+              alt="producto 2"
+            />
+            <h3>Campera Carhartt gris vintage</h3>
+          </article>
+          <article class="relacionado">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-yLiDhfhWmArQmy8DDVsFyfQG0-ws_itkNQ&s"
+              alt="producto 3"
+            />
+            <h3>Campera Carhartt verde vintage</h3>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="pie">
+      <div>
+        <h3>Contacto</h3>
+        <p>📧 carhartt@gmail.com</p>
+        <p>📍 Buenos Aires, Argentina</p>
+        <p>📞 +54 11 5555-5555</p>
+      </div>
+
+      <div>
+        <h3>Ayuda</h3>
+        <ul>
+          <li>Centro de ayuda</li>
+          <li>Seguimiento de pedidos</li>
+          <li>Cambios y devoluciones</li>
+          <li>Preguntas frecuentes</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Medios de Pago</h3>
+        <div class="pagos">
+          <span class="pago-texto">Mercado Pago</span>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Logo_Banco_Galicia.svg/3840px-Logo_Banco_Galicia.svg.png"
+            alt="Galicia"
+          />
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg"
+            alt="Mastercard"
+          />
+        </div>
+      </div>
+
+      <div>
+        <h3>Políticas y Garantías</h3>
+        <ul>
+          <li><a href="#">Garantía oficial de productos</a></li>
+          <li><a href="#">Política de privacidad</a></li>
+          <li><a href="#">Términos y condiciones</a></li>
+          <li><a href="#">Compra segura protegida</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
